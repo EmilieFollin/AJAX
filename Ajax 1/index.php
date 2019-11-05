@@ -60,7 +60,7 @@
                 document.getElementById('jsdemo2').innerHTML = this.responseText;
             }
         };
-        xhttp.open("POST", "demo.php?nom=follin&prenom=emilie", true);
+        xhttp.open("GET", "demo.php?nom=follin&prenom=emilie", true);
         xhttp.send();
 
     }
