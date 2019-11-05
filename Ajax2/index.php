@@ -10,6 +10,7 @@
     <style>
         img {
             width: 10%;
+            border-radius: 59%;
         }
     </style>
 </head>
@@ -17,11 +18,9 @@
 
 <a href="#" id="js_get_reponse">Vodka cocktail</a>
 
-<ul id="list">
-</ul>
+<ul id="list"></ul>
 
 <div id="info"></div>
-
 
 
 <script
@@ -95,9 +94,6 @@
                                 }
                             }
                         })
-
-
-
                     },
                     error: function()  {
                         console.error('error')
